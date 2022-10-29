@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "pizza  ",
+    "precio": 300,
+    "thumbnail": "url",
+    "id": 1
+  },
+  {
+    "nombre": "empanada carne  ",
+    "precio": 324,
+    "thumbnail": "url",
+    "id": 2
+  },
+  {
+    "nombre": "empanada de j y q ",
+    "precio": 320,
+    "thumbnail": "url",
+    "id": 3
+  },
+  {
+    "nombre": "faina  ",
+    "precio": 100,
+    "thumbnail": "url",
+    "id": 4
+  }
+]
