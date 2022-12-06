@@ -1,0 +1,18 @@
+[
+   {
+      "id": 1,
+      "timestamp": 1670291926857,
+      "products": [
+         {
+            "id": 2,
+            "code": 2,
+            "timestamp": 1646618983235,
+            "name": "Fender Elite Jazz Bass",
+            "desc": "The most acknowledge",
+            "price": 20000,
+            "image": "https://i.imgur.com/eTV1w2W.jpeg",
+            "stock": 10
+         }
+      ]
+   }
+]
