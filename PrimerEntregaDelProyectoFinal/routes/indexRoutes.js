@@ -8,7 +8,7 @@ const cartRouter = require('./cart/cart.router')
 const router = express.Router()
 
 router.use(express.json())
-router.use(express.urlencoded({extended:true}))
+router.use(express.urlencoded({ extended: true }))
 
 
 /*este modulo al unirse con index.js de forma completa sera /api/products mas lo que contenga productsRouter que se encuentra en el archivo products.router*/
