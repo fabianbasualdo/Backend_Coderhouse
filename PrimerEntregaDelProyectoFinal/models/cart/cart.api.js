@@ -53,7 +53,7 @@ class CartsApi {
 
         //con findIndex
         const index = carts.findIndex(cart => cart.id === +idCart)
-    //console.log(`el indexcarrito es:${index}`)
+        //console.log(`el indexcarrito es:${index}`)
 
         if (index < 0) return { error: `No se encontró el Carrito con el id: ${idCart}!` };
         const theCart = carts.find(cart => cart.id === +idCart)
@@ -71,7 +71,7 @@ class CartsApi {
     showItems(idCart) {
         //muestra un carrito en base a el id de carrito indicado
         const theCart = this.carts.find(cart => cart.id === +idCart)
-        if(!theCart){return 'No existe el id del carrito buscado'}
+        if (!theCart) { return 'No existe el id del carrito buscado' }
         return { Productos: theCart.products }
     }
 
@@ -106,9 +106,9 @@ class CartsApi {
         const index = actualProducts.findIndex(product => product.id === +idProduct);
 
 
-        if (index < 0) return { 
-            error: `No se encontró un Producto con el id: ${idProduct}!` 
-         };
+        if (index < 0) return {
+            error: `No se encontró un Producto con el id: ${idProduct}!`
+        };
 
         //guardo el name del producto que encontre
         const theProductName = actualProducts[index].name

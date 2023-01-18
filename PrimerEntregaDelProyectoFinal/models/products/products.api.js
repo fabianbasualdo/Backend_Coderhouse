@@ -63,6 +63,8 @@ class ProductsApi {
         const index = this.products.findIndex(product => product.id === +id);
 
         if (index < 0) return { error: `No se encontró un Producto con el id: ${id}!` };
+       
+       
         newList[index] = {
             id: +id,
             code: +id,

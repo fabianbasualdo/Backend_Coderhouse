@@ -76,7 +76,12 @@ io.on('connection',async socket=>{
             email
           }
         users.push(newUser)
+		
+		//el cliente mas nuevo recibe un mensaje de bienvenida
         socket.emit('newMessage', formatMessage(null,botName,'Bienvenido al Chat'))
+		
+		//y los demas clientes conectados reciben el mensaje sobre quien se unio.
+		//broadcast.emit envia el mensaje a todos menos al que emite el mensaje.
         socket.broadcast.emit('newMessage', formatMessage(null, botName, `${email} se unió!`))
 
         const messages = await allMessages.readFile()

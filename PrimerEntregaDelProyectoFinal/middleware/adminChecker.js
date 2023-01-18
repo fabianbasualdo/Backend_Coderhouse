@@ -2,6 +2,11 @@
 const userAdmin = true;
 
 const adminChecker = (req, res, next) => {
+
+
+    //const userAdmin = req.params.userAdmin
+
+
     if (userAdmin) {
         next()
     } else {
