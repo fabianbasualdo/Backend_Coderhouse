@@ -1,6 +1,6 @@
 ## Rutas
                                                                          
-> POST  /login Formulario de login. Las sesesiones son almacenadas en mongoAtlas                                                                                                                                                                          
+> POST  /login Formulario de login. Las sessiones son almacenadas en mongoAtlas                                                                                                                                                                          
 > POST /logout  Se accede tras clicker al boton 'deslogear' y luego de 2 segundos redirige a /login.                                                                                                                                                                          
 > GET /productos Me permite listar todos los productos disponibles                                                                                                                                                                        
 > POST /productos  Para incorporar productos al listado                                                                                                                                                                                        |
