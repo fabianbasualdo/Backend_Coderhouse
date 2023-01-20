@@ -53,21 +53,35 @@ const apiChat = new ApiChat();
 let messages = [];
 
 io.on("connection", async (socket) => {
+
+  //traigo el contenido de /data/chat.json utilizando apiChat.js
   let messagesToEmit = await apiChat.readChatFromFile();
 
   messages.splice(0, messages.length);
+
+  //inserta en el array llamado menssages lo que encuentra en el archivo /data/chat.json
   for (const m of messagesToEmit) {
     messages.push(m);
   }
 
+  //envia el contenido de /data/chat.json por medio de sockect hacia el socket que lo requiera
+
+  //en este caso lo recibira en index.js de la carpeta layouts
   socket.emit("messages", messagesToEmit);
 
+
+  /*por medio de socket recibe un nuevo mensaje, (el cual contiene del author su id,name,lastname,age,alias,avatar) llamado new-message que viene desde el index.js de la carpeta layouts*/
   socket.on("new-message", (data) => {
+    /*cuenta cuantos mensajes tiene en el array llamado messages y le suma uno, porque esta buscando el id que le colocara al nuevo mensaje que vino por el socket.*/
     data.id = messages.length+1
+
+    //inserta el nuevo mensaje con su id incorporado al array messages
     messages.push(data);
 
+    /*envia por socket el nuevo mensaje incorporado, lo recibira index.js de la carpeta layouts el cual dibujara en pantalla el alias, time, text*/
     io.sockets.emit("messages", [data]);
 
+    //por medio de apiChat escribe el archivo /data/chat.json con el contenido del chat.
     apiChat.writeChatToFile(messages);
   });
 });

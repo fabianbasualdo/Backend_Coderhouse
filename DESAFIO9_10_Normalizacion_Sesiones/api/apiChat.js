@@ -2,11 +2,14 @@ const fs = require("fs");
 const { normalizeAndDenormalize } = require("../utils/normalizr");
 
 class ApiChat {
+
+
   async writeChatToFile(message) {
     try {
       // Normalizamos para guardar la data de esa forma y ahorrar
       const messagesNormalized = normalizeAndDenormalize("normalize", message);
 
+      
       await fs.promises.writeFile(
         "./data/chat.json",
         JSON.stringify(messagesNormalized)
