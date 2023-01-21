@@ -4,6 +4,7 @@ const { normalizeAndDenormalize } = require("../utils/normalizr");
 class ApiChat {
 
 
+  //normaliza el mensaje del chat, para luego escribirlo el archivo chat.json 
   async writeChatToFile(message) {
     try {
       // Normalizamos para guardar la data de esa forma y ahorrar
@@ -19,6 +20,8 @@ class ApiChat {
     }
   }
 
+
+  //lee el archivo chat.json y lo desnormaliza para luego retornarlo
   async readChatFromFile() {
     try {
       //Leemos la fuente que esta normalizada

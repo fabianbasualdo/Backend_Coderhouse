@@ -1,15 +1,16 @@
 const server = require("express").Router();
 
 
-//cuando detecta el endpoint get /login cargar login.hbs
+//cuando detecta el endpoint get /login cargar en pantalla login.hbs
 server.get("/login", (req, res) => {
   return res.render("login.hbs");
 });
 
 
-
+//si hace un post inicia la sesion y redirecciona a /productos
 server.post("/login", (req, res) => {
-  //carga el nombre que el usuario coloco en el body
+  //carga la variable con el nombre que el usuario coloco en el body
+  //recordemos que el input donde ingreso el usuario se llama name en el archivo login.hbs
   let username = req.body.name;
 
 //carga la sesion con el nombre de usuario ingresado

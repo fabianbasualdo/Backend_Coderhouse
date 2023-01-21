@@ -1,15 +1,23 @@
 const express = require("express");
 const session = require("express-session");
+
 const expbs = require("express-handlebars");
-require("dotenv").config({ path: "./config/.env" });
+
+require("dotenv").config({ path: "./config/.env" });/*aqui colocaremos las variables de entorno, como por ejemplo la conexion a mongo, y el puerto*/
+
+
 const { Server: HttpServer } = require("http");
 const { Server: IOServer } = require("socket.io");
+
+
 const path = require("path");
-const routes = require("./routers/index");
+
+const routes = require("./routers/index");// en routers/index tenemos todas las rutas
 
 const app = express();
 const httpServer = new HttpServer(app);
 const io = new IOServer(httpServer);
+
 
 /*      PERSISTENCIA POR MONGO ATLAS     */
 const MongoStore = require("connect-mongo");
@@ -32,8 +40,10 @@ app.use(
 //Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
 app.use(express.static("./views/layouts"));
-app.use("/", routes);
+
+app.use("/", routes);//a partir del raiz, podremos acceder a todas las rutas que haya en routes
 
 //Motor de plantillas
 app.engine(
@@ -49,7 +59,11 @@ app.set("views engine", "hbs");
 
 /* CHAT */
 const ApiChat = require("./api/apiChat");
-const apiChat = new ApiChat();
+
+//apiChat tiene metodos para normalizar y desnormalizar desde el archivo chat.json
+const apiChat = new ApiChat();//creo el objeto
+
+//creo un array para guardar los mensajes del chat
 let messages = [];
 
 io.on("connection", async (socket) => {
@@ -57,6 +71,7 @@ io.on("connection", async (socket) => {
   //traigo el contenido de /data/chat.json utilizando apiChat.js
   let messagesToEmit = await apiChat.readChatFromFile();
 
+  //si el array tiene datos lo borra, porque voy a guardar los mensajes del Archivo chat.json
   messages.splice(0, messages.length);
 
   //inserta en el array llamado menssages lo que encuentra en el archivo /data/chat.json
@@ -66,7 +81,7 @@ io.on("connection", async (socket) => {
 
   //envia el contenido de /data/chat.json por medio de sockect hacia el socket que lo requiera
 
-  //en este caso lo recibira en index.js de la carpeta layouts
+  //En este caso lo recibira en layouts/index.js utilizando un socket.on("messages")
   socket.emit("messages", messagesToEmit);
 
 
@@ -85,6 +100,9 @@ io.on("connection", async (socket) => {
     apiChat.writeChatToFile(messages);
   });
 });
+
+
+
 
 //Manejador de errores
 app.use(function (err, req, res, next) {

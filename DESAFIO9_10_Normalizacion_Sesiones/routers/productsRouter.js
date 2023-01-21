@@ -9,12 +9,15 @@ const Contenedor = require("../class/contenedor");
 const productos = new Contenedor(path.join(__dirname, '../data/productos.json'));
 
 server.get("/", (req, res) => {
-//si exite una sesion entonces
+//si exite una sesion, que la sesion es iniciada en sessionRouter.js(es decir: /login) entonces:
   if (req.session.user) {
     let content = productos.content;//contiene los productos encontrados en productos.json
     let boolean = content.length !== 0; //si es distinto de cero es porque tiene contenido
     
     return res.render("index.hbs", {
+      //index.hbs carga en pantalla a welcome.hbs,form.hbs,products.hbs
+      /*cuando ingresa a products.hbs entra a un if preguntando si showList es true, si es true, entonces renderiza (dibuja en pantalla) el contenido de list (todo lo que traje de productos.json)
+      name la utiliza welcome.hbs para renderizar,para saludar al usuario*/
       list: content, //contenido encontrado
       showList: boolean, //true si tiene contenido
       name: req.session.user, //usuario que inicio la sesion
