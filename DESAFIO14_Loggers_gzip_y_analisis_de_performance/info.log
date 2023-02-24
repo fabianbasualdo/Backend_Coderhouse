@@ -1,0 +1,13 @@
+
+[2023-02-22T10:39:08.453] [INFO] infoFile - Route: /. Method: GET
+[2023-02-22T10:39:15.365] [INFO] infoFile - Route: /info. Method: GET
+[2023-02-22T10:39:36.678] [INFO] infoFile - Route: /api/productos-test. Method: GET
+[2023-02-22T10:39:47.111] [INFO] infoFile - Route: /productos-test. Method: GET
+[2023-02-22T10:41:01.529] [INFO] infoFile - Route: /login. Method: GET
+[2023-02-22T10:41:07.130] [INFO] infoFile - Route: /logins. Method: GET
+[2023-02-22T10:41:13.015] [INFO] infoFile - Route: /api/logins. Method: GET
+[2023-02-22T10:41:16.136] [INFO] infoFile - Route: /api/login. Method: GET
+[2023-02-22T10:41:19.648] [INFO] infoFile - Route: /. Method: GET
+[2023-02-22T10:42:00.250] [INFO] infoFile - Route: /. Method: GET
+[2023-02-23T12:28:48.425] [INFO] infoFile - Route: /. Method: GET
+[2023-02-23T12:29:21.522] [INFO] infoFile - Route: /. Method: GET

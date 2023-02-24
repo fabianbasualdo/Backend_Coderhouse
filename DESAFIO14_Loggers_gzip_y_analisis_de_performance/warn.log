@@ -1,0 +1,5 @@
+[2023-02-22T10:39:47.112] [WARN] warningFile - Route: /productos-test. Method: GET
+[2023-02-22T10:41:01.529] [WARN] warningFile - Route: /login. Method: GET
+[2023-02-22T10:41:07.131] [WARN] warningFile - Route: /logins. Method: GET
+[2023-02-22T10:41:13.015] [WARN] warningFile - Route: /api/logins. Method: GET
+[2023-02-22T10:41:16.136] [WARN] warningFile - Route: /api/login. Method: GET

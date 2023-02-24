@@ -1,12 +1,19 @@
 const express = require("express");
 const session = require("express-session");
 const exphbs = require("express-handlebars");
+
 require("dotenv").config({ path: ".env" });
+
+
 const { Server: HttpServer } = require("http");
 const { Server: IOServer } = require("socket.io");
+
 const path = require("path");
+
 const routes = require("./routers/index.js");
-const { minimistObject } = require("./utils/minimisObject")
+
+
+const { minimistObject } = require("./utils/minimisObject");
 
 const app = express();
 const httpServer = new HttpServer(app);
@@ -33,6 +40,9 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("./views/layouts"));
+
+
+
 app.use("/", routes);
 
 // MOTOR PLANTILLAS
