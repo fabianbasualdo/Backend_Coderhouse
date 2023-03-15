@@ -1,0 +1,27 @@
+[2022-05-30T20:06:40.491] [INFO] infoFile - Connected to DB!
+[2022-05-30T20:09:27.349] [INFO] infoFile - User registration successful!
+[2022-05-30T20:09:29.663] [INFO] infoFile - {
+  accepted: [ 'fabianbasualdo0909@gmail.com' ],
+  rejected: [],
+  envelopeTime: 777,
+  messageTime: 728,
+  messageSize: 948,
+  response: '250 2.0.0 OK  1653952171 ov16-20020a056870cb9000b000f33ced2c50sm1582503oab.56 - gsmtp',
+  envelope: { from: '', to: [ 'fabianbasualdo0909@gmail.com' ] },
+  messageId: '<24b0ab0d-2b08-5cc7-c116-28fb69f1c621@GrandPC>'
+}
+[2022-05-30T20:14:46.413] [INFO] infoFile - User logued out!
+[2022-06-29T16:23:19.418] [INFO] infoFile - Connected to DB!
+[2022-07-16T22:43:36.645] [INFO] infoFile - Connected to DB!
+[2023-03-14T20:38:21.071] [INFO] infoFile - Connected to DB!
+[2023-03-14T20:40:41.311] [INFO] infoFile - User registration successful!
+[2023-03-14T20:40:44.358] [INFO] infoFile - {
+  accepted: [ 'fabianbasualdo0909@gmail.com' ],
+  rejected: [],
+  envelopeTime: 736,
+  messageTime: 676,
+  messageSize: 1038,
+  response: '250 2.0.0 OK  1678837243 j130-20020acab988000000b0037d74967ef6sm1487165oif.44 - gsmtp',
+  envelope: { from: '', to: [ 'fabianbasualdo0909@gmail.com' ] },
+  messageId: '<8b1632fa-2a74-91c8-0489-146feb8250aa@LAPTOP-LDO0PSVS>'
+}

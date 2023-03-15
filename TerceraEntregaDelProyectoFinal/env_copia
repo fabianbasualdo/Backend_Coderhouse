@@ -1,0 +1,14 @@
+DB_URI= 'base:password@cluster0'
+
+
+mirar= dbConfig.js hay esta DB_URI
+mirar= whatsapp.js hay esta el numero de TWILIO_ID de whatsapp colocar el tuyo
+mirar= nodemailer.js hay esta el numero de nodemailes colocar el tuyo
+
+ADMIN_PHONE='+549tucelular'
+TWILIO_ID=''
+TWILIO_TOKEN=''
+
+
+
+
