@@ -10,8 +10,11 @@ const transporter = nodemailer.createTransport({
     service: 'gmail',
     port: 587,
     auth:{
-        user: 'coloca tu email personal',
+        
+         user: 'coloca tu email personal',
         pass: 'xxxxxxxxxxxxxxxxx coloca la clave para app de gmail'
+        
+       
     }
 });
 

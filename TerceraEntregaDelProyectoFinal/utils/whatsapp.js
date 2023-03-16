@@ -11,7 +11,7 @@ const twilioClient = twilio(ACCOUNT_ID, AUTH_TOKEN);
 async function adminWppMessage(msg){
     try {
         const messagePayload = {
-            from:'whatsapp:+aqui va El Numero que te Paso TWILIO',
+            from:'whatsapp:+coloca el numero que te paso la aplicacion web',
             to: `whatsapp:${ADMIN_PHONE}`,
             body: msg,
         }

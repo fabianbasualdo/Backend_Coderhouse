@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 
 const collection = 'carts'
 
+//Esta es la estructura que tendra la tabla para el carrito, es decir, su Schema
 const cartSchema = new mongoose.Schema({
     owner: {type: Object, ref:'users'},
     timestamp:{type:Date, min:Date.now()},

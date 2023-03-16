@@ -8,18 +8,23 @@ const {infoLogger, errorLogger} = require('../../utils/logger/index')
 const UserDao = require('../../models/daos/users/userDao');
 const userDao = new UserDao();
 
-const salt = () => bcrypt.genSaltSync(10);
-const createHash = (password) => bcrypt.hashSync(password, salt());
+const salt = () => bcrypt.genSaltSync(10);//genera un salto
+const createHash = (password) => bcrypt.hashSync(password, salt()); //genera el hash
+
 const isValidPassword = (user, password) => bcrypt.compareSync(password, user.password);
+
+
 
 passport.use("login", new LocalStrategy(async (username, password, done) => {
     try {
-      const user = await userDao.getByEmail(username);
+      const user = await userDao.getByEmail(username);//busca el usuario en la base de datos
+
+
       if (!isValidPassword(user, password)) {
         errorLogger.error('Invalid user or password');
         return done(null, false);
       }
-      return done(null, user);
+      return done(null, user);//si valida el usuario, done devuelve el "user"
     }
     catch (error) {
       errorLogger.error(error);
@@ -27,12 +32,16 @@ passport.use("login", new LocalStrategy(async (username, password, done) => {
     }
   }));
 
+
+/********************************************************************************** */
+
   passport.use("register",  new LocalStrategy(
     { passReqToCallback: true },
+
     async (req, username, password, done) => {
       try {
         const birthDayDate = req.body.bday
-        const ageInYears = moment().diff(new Date(birthDayDate), 'years');
+        const ageInYears = moment().diff(new Date(birthDayDate), 'years'); //edad en años
 
         const usrObject= {
           email: username,
@@ -45,8 +54,12 @@ passport.use("login", new LocalStrategy(async (username, password, done) => {
           image: req.file.path,
         };
         const user = await userDao.createUser(usrObject);
+
         const userWithCart = {...user._doc, cart: await postNewCart(user._id)}
+
         const reUser = await userDao.updateById(user._id, userWithCart)
+
+        console.log(`holaaaaaaaa id cart${user._id}`) //641256f93d3e616b1b119ee2
         infoLogger.info("User registration successful!");
         
         await newRegister(usrObject)
@@ -59,6 +72,11 @@ passport.use("login", new LocalStrategy(async (username, password, done) => {
     }
   ));
   
+/********************************************************************************** */
+
+
+
+
   // Serializacion
   passport.serializeUser((user, done) => {
     done(null, user._id);

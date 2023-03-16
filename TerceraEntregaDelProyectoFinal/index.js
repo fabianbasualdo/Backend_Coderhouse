@@ -48,6 +48,19 @@ function allServer(){
     app.use('/views', express.static(__dirname + '/views'));
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
+/*
+Basically, 1000 is used here just for converting seconds to milliseconds.
+
+Number of seconds in a day = 24 * 60 * 60 = 86400 seconds.
+
+1 second = 1000 milliseconds.
+
+So after calculating the expression, the result is in milliseconds.
+
+days * 24 * 60 * 60 * 1000 = days * 86400000 ms
+*/
+
+
     app.use(session({
         name:'codigo-session',
         secret:process.env.COOKIE_SECRET,
@@ -56,6 +69,9 @@ function allServer(){
         cookie:{maxAge:24 * 60 * 60 * 1000},
         store: MongoStore.create({mongoUrl: dbConfig.mongodb.connectTo('sessions')})
     }));
+
+
+
     app.use(passport.initialize());
     app.use(passport.session());
 
@@ -65,6 +81,8 @@ function allServer(){
         layoutsDir:path.resolve(__dirname,"./views/layouts"),
         partialDir:path.resolve(__dirname, "./views/partials")
     }))
+
+
     app.set('views', './views/');
     app.set('view engine', 'hbs');
 
@@ -73,6 +91,7 @@ function allServer(){
 
     //Inicio de Server
     app.listen(PORT, ()=>{
+        mongoose.set('strictQuery', true);
         mongoose.connect(dbConfig.mongodb.connectTo('ProyectoFinal'))
     .then(() => {
         infoLogger.info('Connected to DB!');

@@ -25,3 +25,85 @@
   envelope: { from: '', to: [ 'fabianbasualdo0909@gmail.com' ] },
   messageId: '<8b1632fa-2a74-91c8-0489-146feb8250aa@LAPTOP-LDO0PSVS>'
 }
+[2023-03-15T12:41:17.258] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:46:13.799] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:46:42.752] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:50:17.582] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:51:04.849] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:51:45.521] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:52:03.817] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:53:44.531] [INFO] infoFile - Connected to DB!
+[2023-03-15T12:53:52.502] [INFO] infoFile - Connected to DB!
+[2023-03-15T20:36:36.692] [INFO] infoFile - Connected to DB!
+[2023-03-15T20:36:59.814] [INFO] infoFile - User logued out!
+[2023-03-15T20:38:33.253] [INFO] infoFile - User registration successful!
+[2023-03-15T20:38:35.453] [INFO] infoFile - {
+  accepted: [ 'fabianbasualdo0909@gmail.com' ],
+  rejected: [],
+  ehlo: [
+    'SIZE 35882577',
+    '8BITMIME',
+    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',
+    'ENHANCEDSTATUSCODES',
+    'PIPELINING',
+    'CHUNKING',
+    'SMTPUTF8'
+  ],
+  envelopeTime: 640,
+  messageTime: 630,
+  messageSize: 1020,
+  response: '250 2.0.0 OK  1678923514 y13-20020a4ae70d000000b0052569fb1cfesm2749248oou.28 - gsmtp',
+  envelope: { from: '', to: [ 'fabianbasualdo0909@gmail.com' ] },
+  messageId: '<04f09fa9-2662-3b44-a8cb-e5bb37e4f9ba@localhost>'
+}
+[2023-03-15T20:39:07.796] [INFO] infoFile - Connected to DB!
+[2023-03-15T23:59:46.317] [INFO] infoFile - Connected to DB!
+[2023-03-16T00:00:18.567] [INFO] infoFile - Connected to DB!
+[2023-03-16T00:04:19.726] [INFO] infoFile - {
+  body: 'Nuevo pedido de fabian. Email: fabian.basualdo@gmail.com',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: 'whatsapp:+14155238886',
+  to: 'whatsapp:+5491133400309',
+  dateUpdated: 2023-03-16T03:04:18.000Z,
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/AC447acd1857238dd775bd1aaeb1a4547c/Messages/SMb03d03d1671ee298bf5b4cff1a37d49a.json',
+  accountSid: 'AC447acd1857238dd775bd1aaeb1a4547c',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SMb03d03d1671ee298bf5b4cff1a37d49a',
+  dateSent: null,
+  dateCreated: 2023-03-16T03:04:18.000Z,
+  errorCode: null,
+  priceUnit: null,
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/AC447acd1857238dd775bd1aaeb1a4547c/Messages/SMb03d03d1671ee298bf5b4cff1a37d49a/Media.json'
+  }
+}
+[2023-03-16T00:04:22.660] [INFO] infoFile - {
+  body: 'Nuevo pedido de fabian. Email: fabian.basualdo@gmail.com',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: 'whatsapp:+14155238886',
+  to: 'whatsapp:+5491133400309',
+  dateUpdated: 2023-03-16T03:04:21.000Z,
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/AC447acd1857238dd775bd1aaeb1a4547c/Messages/SMfddd395ca23b37635122850a23ba5ab2.json',
+  accountSid: 'AC447acd1857238dd775bd1aaeb1a4547c',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SMfddd395ca23b37635122850a23ba5ab2',
+  dateSent: null,
+  dateCreated: 2023-03-16T03:04:21.000Z,
+  errorCode: null,
+  priceUnit: null,
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/AC447acd1857238dd775bd1aaeb1a4547c/Messages/SMfddd395ca23b37635122850a23ba5ab2/Media.json'
+  }
+}

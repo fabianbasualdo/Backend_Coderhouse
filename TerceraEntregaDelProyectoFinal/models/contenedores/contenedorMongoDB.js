@@ -5,10 +5,14 @@ class ContenedorMongoDB{
         this.model = mongoose.model(collection, schema)
     }
     async getById(id){
+        /*
+        When documents are queried, they are returned as Mongoose "Documents by default". With the Mongoose lean() method, the documents are returned as "plain objects".
+        */
         const document = await this.model.findById(id, { __v: 0 }).lean();
         return document 
     }
     async getAll(){
+
         const documents = await this.model.find({},{__v:0}).lean();
         return documents 
     }  

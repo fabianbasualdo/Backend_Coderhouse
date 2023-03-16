@@ -8,8 +8,10 @@ const {
     updateProduct,
     deleteProduct,
 } = require('../../controllers/products.controller')
-const router = express.Router()
 
+
+
+const router = express.Router()
 router.use(express.json())
 router.use(express.urlencoded({extended:true}))
 

@@ -26,14 +26,19 @@ router.get('/', async (req,res)=>{
         const allProducts = await productsDao.getAll()
         if(sessionName){
             const sessionCart = await cartDao.getById(sessionName.cart)
+
+            //renderiza sessionName, sessionCart, y todos los productos
             return res.render('index', {sessionName, sessionCart, allProducts})
         }
+        //de lo contrario solo renderiza en pantalla sessionName y todos los productos
             res.render('index', {sessionName, allProducts})
         
     } catch (error) {
         errorLogger.error(new Error(error));
     }
 })
+
+
 router.get('/desloguear', (req,res)=>{
     const deslogueoName = req.user
     req.logout();
