@@ -1,4 +1,4 @@
-[2022-05-30T20:10:55.886] [ERROR] error - RestException [Error]: Authenticate
+[2023-03-15T20:10:55.886] [ERROR] error - RestException [Error]: Authenticate
     at success (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\lib\base\Version.js:135:15)
     at Promise_then_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:766:44)
     at Promise_done_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:835:31)
@@ -12,7 +12,7 @@
   moreInfo: 'https://www.twilio.com/docs/errors/20003',
   details: undefined
 }
-[2022-05-30T20:10:56.535] [ERROR] error - RestException [Error]: Authenticate
+[2023-03-15T20:10:56.535] [ERROR] error - RestException [Error]: Authenticate
     at success (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\lib\base\Version.js:135:15)
     at Promise_then_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:766:44)
     at Promise_done_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:835:31)
