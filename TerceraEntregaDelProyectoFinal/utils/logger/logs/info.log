@@ -108,3 +108,38 @@
   }
 }
 [2023-03-16T08:52:51.754] [INFO] infoFile - Connected to DB!
+[2023-03-16T18:02:37.979] [INFO] infoFile - Connected to DB!
+[2023-03-16T23:29:17.978] [INFO] infoFile - Connected to DB!
+[2023-03-16T23:32:24.306] [INFO] infoFile - Connected to DB!
+[2023-03-16T23:32:35.798] [INFO] infoFile - Connected to DB!
+[2023-03-16T23:37:24.562] [INFO] infoFile - User registration successful!
+[2023-03-16T23:37:27.647] [INFO] infoFile - {
+  accepted: [ 'fabianbasualdo0909@gmail.com' ],
+  rejected: [],
+  ehlo: [
+    'SIZE 35882577',
+    '8BITMIME',
+    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',
+    'ENHANCEDSTATUSCODES',
+    'PIPELINING',
+    'CHUNKING',
+    'SMTPUTF8'
+  ],
+  envelopeTime: 772,
+  messageTime: 773,
+  messageSize: 971,
+  response: '250 2.0.0 OK  1679020646 y1-20020a4ad641000000b00525270c233asm279862oos.39 - gsmtp',
+  envelope: { from: '', to: [ 'fabianbasualdo0909@gmail.com' ] },
+  messageId: '<c443ee69-9358-31c3-7f5d-d733f63ebaee@localhost>'
+}
+[2023-03-16T23:40:03.434] [INFO] infoFile - Connected to DB!
+[2023-03-16T23:40:36.441] [INFO] infoFile - Connected to DB!
+[2023-03-16T23:41:00.387] [INFO] infoFile - Connected to DB!
+[2023-03-16T23:44:32.254] [INFO] infoFile - Connected to DB!
+[2023-03-17T00:04:26.942] [INFO] infoFile - Connected to DB!
+[2023-03-17T00:05:34.732] [INFO] infoFile - Connected to DB!
+[2023-03-17T00:08:06.274] [INFO] infoFile - Connected to DB!
+[2023-03-17T00:16:48.707] [INFO] infoFile - Connected to DB!
+[2023-03-17T00:16:57.243] [INFO] infoFile - User logued out!
+[2023-03-17T00:17:17.013] [INFO] infoFile - User logued out!
+[2023-03-17T00:18:09.483] [INFO] infoFile - Connected to DB!

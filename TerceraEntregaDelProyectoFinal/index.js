@@ -60,14 +60,16 @@ So after calculating the expression, the result is in milliseconds.
 days * 24 * 60 * 60 * 1000 = days * 86400000 ms
 */
 
-
+//iniciamos la session de navegador y la guardamos en mongo para que sea persistente
     app.use(session({
         name:'codigo-session',
         secret:process.env.COOKIE_SECRET,
         resave:false,
         saveUninitialized: false,
         cookie:{maxAge:24 * 60 * 60 * 1000},
-        store: MongoStore.create({mongoUrl: dbConfig.mongodb.connectTo('sessions')})
+        //crea una base de datos llamada session2, y dentro crea una tabla llamada session sin datos, solo la tabla vacia. esta tabla le colocara un dato cuando el usuario se registre con sus datos personales, mas adenlante con el endpoint localhost:8080/register
+        // /register guardara al usuario en la base proyectofinal en la tabla users para futuros logueos
+        store: MongoStore.create({mongoUrl: dbConfig.mongodb.connectTo('sessions2')})
     }));
 
 
@@ -91,9 +93,12 @@ days * 24 * 60 * 60 * 1000 = days * 86400000 ms
 
     //Inicio de Server
     app.listen(PORT, ()=>{
+        //conectamos con la base de datos de mongoatlas
         mongoose.set('strictQuery', true);
         mongoose.connect(dbConfig.mongodb.connectTo('ProyectoFinal'))
     .then(() => {
+
+        //escribimos en el log informativo
         infoLogger.info('Connected to DB!');
         consoleLogger.info('Server is up and running on port:', PORT);
     })

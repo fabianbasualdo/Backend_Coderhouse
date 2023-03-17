@@ -22,14 +22,21 @@ const productsDao = new ProductsDao()
 
 router.get('/', async (req,res)=>{
     try {
-        const sessionName = req.user
+
+        const sessionName = req.user //
+        //console.log(`sessionName es actualmente: ${console.log(JSON.stringify(req.user))}`)
+
         const allProducts = await productsDao.getAll()
+
         if(sessionName){
+            //console.log("entro en sessionName")
             const sessionCart = await cartDao.getById(sessionName.cart)
 
             //renderiza sessionName, sessionCart, y todos los productos
             return res.render('index', {sessionName, sessionCart, allProducts})
         }
+
+        
         //de lo contrario solo renderiza en pantalla sessionName y todos los productos
             res.render('index', {sessionName, allProducts})
         
@@ -41,7 +48,8 @@ router.get('/', async (req,res)=>{
 
 router.get('/desloguear', (req,res)=>{
     const deslogueoName = req.user
-    req.logout();
+    //req.logout();
+    req.session.destroy();
     infoLogger.info('User logued out!');
     res.render('index',{deslogueoName})
 

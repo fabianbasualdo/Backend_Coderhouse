@@ -159,3 +159,44 @@
   moreInfo: 'https://www.twilio.com/docs/errors/21212',
   details: undefined
 }
+[2023-03-16T23:33:32.910] [ERROR] error - MongoServerError: E11000 duplicate key error collection: ProyectoFinal.users index: email_1 dup key: { email: "fabianbasualdo0909@gmail.com" }
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\connection_pool.js:333:25
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\sdam\server.js:210:17
+    at handleOperationResult (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\sdam\server.js:326:20)
+    at Connection.onMessage (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\connection.js:242:9)
+    at MessageStream.<anonymous> (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12) {
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'fabianbasualdo0909@gmail.com' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-03-16T23:33:33.133] [ERROR] error - TypeError: Cannot read properties of undefined (reading '_doc')
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\routers\auth\passport.js:58:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-03-16T23:35:53.861] [ERROR] error - MongoServerError: E11000 duplicate key error collection: ProyectoFinal.users index: email_1 dup key: { email: "fabian.basualdo@gmail.com" }
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\connection_pool.js:333:25
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\sdam\server.js:210:17
+    at handleOperationResult (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\sdam\server.js:326:20)
+    at Connection.onMessage (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\connection.js:242:9)
+    at MessageStream.<anonymous> (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12) {
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'fabian.basualdo@gmail.com' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-03-16T23:35:53.867] [ERROR] error - TypeError: Cannot read properties of undefined (reading '_doc')
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\TerceraEntregaDelProyectoFinal\routers\auth\passport.js:58:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-03-17T00:06:09.020] [ERROR] error - Invalid user or password

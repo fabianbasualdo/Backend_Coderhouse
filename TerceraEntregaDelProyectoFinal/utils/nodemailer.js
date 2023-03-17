@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
         
          user: 'coloca tu email personal',
         pass: 'xxxxxxxxxxxxxxxxx coloca la clave para app de gmail'
-      
+       
         
        
     }
