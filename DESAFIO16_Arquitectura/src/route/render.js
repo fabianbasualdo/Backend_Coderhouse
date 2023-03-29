@@ -5,6 +5,8 @@ const render = Router();
 render.get("/", renderControllers.formRender)
 .get("/signin", renderControllers.loginRender)
 .get("/signup", renderControllers.signupRender)
+
+
 .get("/logout", renderControllers.logoutRender)
 .get("/errorlogin", renderControllers.errorLogin)
 .get("/errorsignup", renderControllers.errorSignup)

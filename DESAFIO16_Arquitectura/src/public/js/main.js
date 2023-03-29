@@ -16,9 +16,12 @@ socket.on("messages", (data) => {
   renderMessages(data);
 });
 
+
+
+
 function render(data) {
-  let html = data
-    .map((elem, index) => {
+let html = data
+  data.map((elem, index) => {
       return `<tr>
     <td>${elem.title}</td>
     <td>${elem.price}</td>
@@ -27,6 +30,7 @@ function render(data) {
     })
     .join(" ");
   document.getElementById("tbproducts").innerHTML = html;
+
 }
 
 function renderMessages(data) {

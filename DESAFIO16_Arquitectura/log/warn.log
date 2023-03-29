@@ -97,3 +97,14 @@
     at Layer.handle [as handle_request] (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\backendCoder-main_marcelofabianbasualdo##\backendCoder-main\desafios\desafio17_DTO\node_modules\express\lib\router\layer.js:95:5)
     at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\backendCoder-main_marcelofabianbasualdo##\backendCoder-main\desafios\desafio17_DTO\node_modules\express\lib\router\index.js:281:22
     at Function.process_params (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\backendCoder-main_marcelofabianbasualdo##\backendCoder-main\desafios\desafio17_DTO\node_modules\express\lib\router\index.js:341:12)
+[2023-03-29T01:00:17.773] [ERROR] default - ReferenceError: asDto is not defined
+    at ProductoDaoMem.getAll (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\src\daos\productoDaoMem.js:22:5)
+    at ProductRepo.getAll (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\src\repos\productRepo.js:13:38)
+    at ProductService.getAll (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\src\services\productService.js:14:49)
+    at getProductosTest (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\src\controllers\productos.js:6:51)
+    at Layer.handle [as handle_request] (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\DESAFIOS\Backend_coderhouse\DESAFIO16_Arquitectura\node_modules\express\lib\router\index.js:346:12)
