@@ -1,0 +1,230 @@
+[2023-04-01T20:10:55.886] [ERROR] error - RestException [Error]: Authenticate
+    at success (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\BackendCoderhouse\ProyectoFinal3\node_modules\asap\asap.js:40:19)
+    at flush (D:\BackendCoderhouse\ProyectoFinal3\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2023-04-01T20:10:56.535] [ERROR] error - RestException [Error]: Authenticate
+    at success (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (D:\BackendCoderhouse\ProyectoFinal3\node_modules\twilio\node_modules\q\q.js:1369:30)
+    at RawTask.call (D:\BackendCoderhouse\ProyectoFinal3\node_modules\asap\asap.js:40:19)
+    at flush (D:\BackendCoderhouse\ProyectoFinal3\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2023-04-02T20:34:12.214] [ERROR] error - BSONError: cyclic dependency detected
+    at new BSONError (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\error.js:23:28)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:267:19)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+[2023-04-02T20:34:20.891] [ERROR] error - BSONError: cyclic dependency detected
+    at new BSONError (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\error.js:23:28)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:267:19)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+[2023-04-02T20:34:37.948] [ERROR] error - BSONError: cyclic dependency detected
+    at new BSONError (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\error.js:23:28)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:267:19)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+[2023-04-02T20:34:52.094] [ERROR] error - BSONError: cyclic dependency detected
+    at new BSONError (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\error.js:23:28)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:267:19)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+[2023-04-02T20:35:24.470] [ERROR] error - BSONError: cyclic dependency detected
+    at new BSONError (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\error.js:23:28)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:267:19)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+[2023-04-02T20:35:38.376] [ERROR] error - BSONError: cyclic dependency detected
+    at new BSONError (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\error.js:23:28)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:267:19)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+    at serializeInto (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:810:25)
+    at serializeObject (D:\BackendCoderhouse\-18.Tests\node_modules\bson\lib\parser\serializer.js:280:20)
+[2023-04-01T19:29:37.390] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-01T19:29:37.400] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-01T19:30:34.465] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-01T19:30:34.469] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-01T19:32:22.057] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-01T19:32:22.059] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-01T19:33:14.619] [ERROR] error - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j5-20020a9d7385000000b006a14579a8besm2703300otk.43 - gsmtp
+    at SMTPConnection._formatError (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials j5-20020a9d7385000000b006a14579a8besm2703300otk.43 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-04-01T19:34:28.461] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-01T19:34:28.463] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-01T20:03:58.241] [ERROR] error - MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\operations\update.js:85:33
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10) {
+  index: 0,
+  code: 66,
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-04-01T20:04:09.729] [ERROR] error - Invalid user or password
+[2023-04-01T20:05:35.289] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-01T20:05:35.300] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-01T20:06:35.071] [ERROR] error - MongoServerError: E11000 duplicate key error collection: ProyectoFinal.users index: email_1 dup key: { email: "fabianbasualdo0909@gmail.com" }
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'fabianbasualdo0909@gmail.com' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-04-01T20:06:35.078] [ERROR] error - TypeError: Cannot read properties of undefined (reading '_doc')
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:48:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-01T21:01:55.302] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-01T21:01:55.312] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-01T21:19:02.219] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-01T21:19:02.230] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-03T23:52:28.340] [ERROR] error - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v12-20020a4aad8c000000b0053b543b027bsm193850oom.42 - gsmtp
+    at SMTPConnection._formatError (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials v12-20020a4aad8c000000b0053b543b027bsm193850oom.42 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-04-04T00:25:57.762] [ERROR] error - Error: Wrong username or password
+    at UserDaoMongoDB.getByEmail (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\models\daos\users\userDao.js:47:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:17:20)
+[2023-04-04T00:25:57.772] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'password')
+    at isValidPassword (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:13:79)
+    at Strategy._verify (C:\CODERHOUSE\CODERHOUSE2\32195_BACKEND\Resueltos de backend\BackendCoderhouse-master_FabianBasualdo##_2023-04-01\BackendCoderhouse-master\18.Tests\routers\auth\passport.js:18:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

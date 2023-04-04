@@ -1,0 +1,10 @@
+
+
+
+DB_URI= 'base de datos de mongo atlas'
+COOKIE_SECRET='Proyecto3'
+ADMIN_EMAIL='fabianbasualdo0909@gmail.com'
+
+ADMIN_PHONE='+549CelularPropio'
+TWILIO_ID='XXXX'
+TWILIO_TOKEN='XXXX'
